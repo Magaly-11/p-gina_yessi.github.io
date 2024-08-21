@@ -1,0 +1,43 @@
+.columnas{
+    display: flex;
+ }
+
+
+.columnas1{
+       width: 400px;
+       height: 400px;
+       display: inline-block;
+       margin: 2%;
+       background-color: rgb(6, 48, 85);
+}
+    
+
+.imagenes{
+     width: 100%;
+     height: 100%;
+}
+
+.datos{
+     width: 100px;
+     height: 35px;
+     display: inline-block;
+     margin: 2%;
+    background-color: rgb(6, 48, 85);
+                
+}
+
+                
+.grid-container {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr); /* Tres columnas iguales */
+     gap: 10px; /* Espacio entre columnas */
+     padding: 8px;
+                }
+
+.grid-item {
+     background-color: #f4f4f4;
+     border: 1px solid #ddd;
+     padding: 20px;
+    text-align: center;
+}
+#FLASHY
